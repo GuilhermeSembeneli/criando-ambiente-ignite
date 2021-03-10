@@ -132,7 +132,7 @@ plugins: [
    no console digite: 
 
    ~~~javascript
-   _NODE_ENV=production webpack yarn webpack_
+   _NODE_ENV=production webpack yarn webpack
    ~~~
 
 - No windows para fazer funcionar devemos fazer da seguinte forma:
