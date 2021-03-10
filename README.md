@@ -25,9 +25,9 @@
 
 ~~~javascript
    module.exports = {
-   presets: [
-   '@babel/preset-env'
-   ]
+      presets: [
+      '@babel/preset-env'
+      ]
    }
 ~~~
 
@@ -83,7 +83,7 @@
 
 ~~~javascript
   ['@babel/preset-react', {
-  runtime: 'automatic'
+      runtime: 'automatic'
   }]
 ~~~
 
