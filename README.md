@@ -128,7 +128,7 @@ plugins: [
    mode: isDevelopment ? 'development' : 'production',
    devtool: isDevelopment ? 'eval-source-map' : 'source-map',
 
-2. Porém temos que criar essa variavel do .NODE*ENV no linux podemos criar da seguinte forma:
+2. Porém temos que criar essa variavel do .NODE_ENV no linux podemos criar da seguinte forma:
    no console digite: 
 
    ~~~javascript
