@@ -129,16 +129,22 @@ plugins: [
    devtool: isDevelopment ? 'eval-source-map' : 'source-map',
 
 2. Porém temos que criar essa variavel do .NODE*ENV no linux podemos criar da seguinte forma:
-   no \_konsole* digite: _NODE_ENV=production webpack yarn webpack_
+   no console digite: 
+
+   ~~~javascript
+   _NODE_ENV=production webpack yarn webpack_
+   ~~~
 
 - No windows para fazer funcionar devemos fazer da seguinte forma:
   **yarn add cross-env -D** ela serve para definirmos variaveis env independente do sistema operacional
 - Depois de instar vá até o packege.json e crie um "scripts" que receba:
 
+~~~javascript
 "scripts": {
 "dev": "webpack serve",
 "build": "cross-env NODE_ENV=production webpack"
 }
+~~~
 
 # Importando arquivos CSS
 
